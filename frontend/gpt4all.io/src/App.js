@@ -256,7 +256,7 @@ function App() {
                 className="underline"
                 href="https://github.com/nomic-ai/gpt4all-datalake"
               >
-                Github
+                
               </a>
             </b>
             . You can contribute by using the GPT4All Pro Chat client and
