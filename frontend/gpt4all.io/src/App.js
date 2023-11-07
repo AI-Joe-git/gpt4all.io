@@ -204,7 +204,6 @@ function App() {
       {/*</div>*/}
 
 
-      </div>
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
         <h2 className="text-4xl font-bold text-center">How GPT4All Pro Works</h2>
 
