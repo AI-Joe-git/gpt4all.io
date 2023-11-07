@@ -249,7 +249,7 @@ function App() {
             democratic process of training a large language model.
           </p>
           <p className="leading-relaxed">
-            All data contributions to the GPT4All Pro Datalake will be open-sourced
+            All data contributions to the GPT4All Pro Datalake will be
             in their raw and Atlas-curated form.
             <b>
               <a
