@@ -77,38 +77,18 @@ function App() {
   return (
     <div className="App font-sans w-screen h-screen flex flex-col overflow-x-hidden relative">
       <header className="z-20 fixed w-full h-14 p-6 flex flex-row gap-8 items-center bg-slate-50/50">
-        <a href="https://home.nomic.ai/">
-          <img
-            alt="Nomic AI logo"
-            src={process.env.PUBLIC_URL + "/nomic_logo.webp"}
-            className="w-12 h-8"
-          />
         </a>
-        <a href="https://github.com/nomic-ai/gpt4all">
-          <img
-            alt="github logo"
-            src={process.env.PUBLIC_URL + "/github-mark.svg"}
-            className="w-8 h-8"
-          />
-        </a>
-        <a href="https://discord.gg/mGZE39AS3e">
-          <img
-            alt="Discord link"
-            src={process.env.PUBLIC_URL + "/discord-mark-black.svg"}
-            className="w-8 h-8"
-          />
-        </a>
-        <title>GPT4All</title>
-        <title>GPT4All</title>
+        <title>GPT4All Pro</title>
+        <title>GPT4All Pro</title>
       </header>
       <main className="flex flex-col justify-center h-full items-center px-8 md:px-36 mt-[8rem] xl:mt-24">
         <div className="2md:mt-0 flex flex-col lg:flex-row justify-center lg:justify-between w-full">
           <div className="flex flex-col w-full lg:w-1/2 gap-4 text-center md:text-start">
             <h2 className="text-xl md:text-3xl font-bold text-center 2md:text-start">
-              GPT4All
+              GPT4All Pro
             </h2>
             <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
-              A free-to-use, locally running, privacy-aware chatbot.{" "}
+              A locally running, privacy-aware chatbot.{" "}
               <strong>No GPU or internet required.</strong>
             </p>
           </div>
@@ -154,7 +134,7 @@ function App() {
 
             <Vertical/>
             <h2 className='text-4xl font-bold text-center mt-8'>
-                    GPT4All's Capabilities
+                    GPT4All's Pro Capabilities
             </h2>
             <span className='text-lg text-slate-500 text-center mt-2 px-6 sm:px-0'>Explore what GPT4All can do. On your own hardware.</span>
         </div> */}
@@ -162,20 +142,20 @@ function App() {
       <div className="w-full items-center flex flex-col justify-center my-14">
         <Vertical />
         <h2 className="text-4xl font-bold text-center mt-8">
-          GPT4All's Capabilities
+          GPT4All's Pro Capabilities
         </h2>
         <span className="text-lg text-slate-500 text-center mt-2 px-6 sm:px-0">
-          Explore what GPT4All can do. On your own hardware.
+          Explore what GPT4All Pro can do. On your own hardware.
         </span>
       </div>
       <div className="w-full px-8 md:px-36 mt-8 flex justify-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <CapabilityCard
             header="Answer questions about the world"
-            description="Ask GPT4All about anything."
+            description="Ask GPT4All Pro about anything."
             gif={process.env.PUBLIC_URL + "/roman_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/roman_gpt4all_still.webp"}
-            alt="GPT4all describing the collapse of the Roman Empire"
+            alt="GPT4all Pro describing the collapse of the Roman Empire"
           />
 
           <CapabilityCard
@@ -183,7 +163,7 @@ function App() {
             description="Write emails, documents, creative stories, poems, songs and plays."
             gif={process.env.PUBLIC_URL + "/robot_poem_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/robot_poem_gpt4all_still.webp"}
-            alt="GPT4all writing a poem."
+            alt="GPT4all Pro writing a poem."
           />
 
           <CapabilityCard
@@ -191,7 +171,7 @@ function App() {
             description="Provide your own text documents and receive summaries and answers about their contents."
             gif={process.env.PUBLIC_URL + "/baroque_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/baroque_gpt4all_still.webp"}
-            alt="GIF of GPT4all summarizing a paragraph from Wikipedia."
+            alt="GIF of GPT4all Pro summarizing a paragraph from Wikipedia."
           />
 
           <CapabilityCard
@@ -199,7 +179,7 @@ function App() {
             description="Get guidance on easy coding tasks. Code capabilities are under improvement."
             gif={process.env.PUBLIC_URL + "/web_request_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/web_request_gpt4all_still.webp"}
-            alt="GPT4all writing Python code."
+            alt="GPT4all Pro writing Python code."
           />
         </div>
       </div>
@@ -225,9 +205,9 @@ function App() {
       {/*</div>*/}
 
       <div className="flex flex-col w-full text-center gap-4 sm:px-0 px-4">
-        <h2 className="text-4xl font-semibold mt-24">GPT4All Ecosystem</h2>
+        <h2 className="text-4xl font-semibold mt-24">GPT4All Pro Ecosystem</h2>
         <span className="text-lg text-slate-500 text-center">
-          Explore the GPT4All open source ecosystem
+          Explore the GPT4All Pro ecosystem
         </span>
       </div>
       <div
@@ -255,11 +235,11 @@ function App() {
         </div>
       </div>
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
-        <h2 className="text-4xl font-bold text-center">How GPT4All Works</h2>
+        <h2 className="text-4xl font-bold text-center">How GPT4All Pro Works</h2>
 
         <div className="w-full lg:w-2/3 px-0 space-y-8 xl:px-32">
           <p className="leading-relaxed">
-            GPT4All is an ecosystem to train and deploy <b>powerful</b> and{" "}
+            GPT4All Pro is an ecosystem to train and deploy <b>powerful</b> and{" "}
             <b>customized</b> large language models that run <b>locally</b> on
             consumer grade CPUs.
           </p>
@@ -270,8 +250,8 @@ function App() {
           </p>
 
           <p className="leading-relaxed">
-            A GPT4All model is a 3GB - 8GB file that you can download and plug
-            into the GPT4All open-source ecosystem software. <b>Nomic AI</b>{" "}
+            A GPT4All Pro model is a 3GB - 8GB file that you can download and plug
+            into the GPT4All Pro ecosystem software. <b>GPT4All Pro AI</b>{" "}
             supports and maintains this software ecosystem to enforce quality
             and security alongside spearheading the effort to allow any person
             or enterprise to easily train and deploy their own on-edge large
@@ -284,12 +264,12 @@ function App() {
       </div>
 
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
-        <h2 className="text-4xl font-bold text-center">GPT4All Datasets</h2>
+        <h2 className="text-4xl font-bold text-center">GPT4All Pro Datasets</h2>
         <div className="w-full lg:w-2/3 px-0 space-y-8 xl:px-32">
           <p className="leading-relaxed">
             To train a powerful instruction-tuned assistant on your own data,
             you need to curate high-quality training and instruction-tuning
-            datasets. Nomic AI has built a platform called{" "}
+            datasets. GPT4All Pro AI has built a platform called{" "}
             <b>
               <a className="underline" href="https://atlas.nomic.ai/">
                 Atlas
@@ -298,7 +278,7 @@ function App() {
             to make manipulating and curating LLM training data easy.
           </p>
           <p className="leading-relaxed">
-            You can find the latest open-source, Atlas-curated GPT4All dataset
+            You can find the latest Atlas-curated GPT4All Pro dataset
             on{" "}
             <b>
               <a
@@ -315,21 +295,20 @@ function App() {
 
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
         <h2 className="text-4xl font-bold text-center">
-          GPT4All Open Source Datalake
+          GPT4All Pro Datalake
         </h2>
         <div className="w-full lg:w-2/3 px-0 space-y-8 xl:px-32">
           <p className="leading-relaxed">
             Data is one the most important ingredients to successfully building
-            a powerful, general purpose large language model. The GPT4All
-            community has built the GPT4All Open Source datalake as a staging
+            a powerful, general purpose large language model. The GPT4All Pro
+            community has built the GPT4All Pro datalake as a staging
             ground for contributing instruction and assistant tuning data for
-            future GPT4All model trains. It allows anyone to contribute to the
+            future GPT4All Pro model trains. It allows anyone to contribute to the
             democratic process of training a large language model.
           </p>
           <p className="leading-relaxed">
-            All data contributions to the GPT4All Datalake will be open-sourced
-            in their raw and Atlas-curated form. You can learn more details
-            about the datalake on{" "}
+            All data contributions to the GPT4All Pro Datalake will be open-sourced
+            in their raw and Atlas-curated form.
             <b>
               <a
                 className="underline"
@@ -338,13 +317,13 @@ function App() {
                 Github
               </a>
             </b>
-            . You can contribute by using the GPT4All Chat client and
+            . You can contribute by using the GPT4All Pro Chat client and
             'opting-in' to share your data on start-up. By default, the chat
             client will not let any conversation history leave your computer.
           </p>
         </div>
 
-        <p>Explore a recent snapshot of the GPT4All Datalake in Atlas below.</p>
+        <p>Explore a recent snapshot of the GPT4All Pro Datalake in Atlas below.</p>
         <iframe
           className="hidden lg:block"
           src="https://atlas.nomic.ai/map/gpt4all-datalake"
