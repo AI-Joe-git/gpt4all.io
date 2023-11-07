@@ -203,35 +203,7 @@ function App() {
       {/*    <PerformanceTableMobile/>*/}
       {/*</div>*/}
 
-      <div className="flex flex-col w-full text-center gap-4 sm:px-0 px-4">
-        <h2 className="text-4xl font-semibold mt-24">GPT4All Pro Ecosystem</h2>
-        <span className="text-lg text-slate-500 text-center">
-          Explore the GPT4All Pro ecosystem
-        </span>
-      </div>
-      <div
-        className={`w-full flex justify-center ${
-          showMore ? "h-full" : "max-h-[300px]"
-        } mt-12`}
-      >
-        <div className="grid grid-cols-1 lg:grid-cols-3 px-4 sm:px-8 md:px-36 relative gap-4 mx-auto h-full overflow-y-auto 2md:overflow-hidden">
-          {ecosystem_links.map((obj, idx) => (
-            <EcosystemItem
-              key={idx}
-              icon={obj.icon}
-              url={obj.url}
-              title={obj.title}
-              description={obj.description}
-            />
-          ))}
 
-          {/*<div className={`${showMore ? "hidden": ""} group z-10 absolute bottom-0 left-0 w-full h-24 items-end flex justify-center bg-gradient-to-t from-white`}>*/}
-          {/*    <button onClick={() => setShowMore(true)} className='bg-transparent flex flex-col items-center'>*/}
-          {/*        <span className='text-xs text-slate-600 group-hover:text-black'>Show more</span>*/}
-          {/*        <ChevronDown className='w-6 h-6'/>*/}
-          {/*    </button>*/}
-          {/*</div>*/}
-        </div>
       </div>
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
         <h2 className="text-4xl font-bold text-center">How GPT4All Pro Works</h2>
