@@ -19,33 +19,33 @@ const ecosystem_links = [
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all",
-    title: "GPT4All Training",
-    description: "Train your own GPT4All models.",
+    title: "GPT4All Pro Training",
+    description: "Train your own GPT4All Pro models.",
   },
   {
     icon: "/github-mark.svg",
     url: "https://docs.gpt4all.io",
-    title: "GPT4All Documentation",
+    title: "GPT4All Pro Documentation",
     description: "Integrate a locally running LLM into any codebase.",
   },
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-chat",
-    title: "GPT4All Chat",
+    title: "GPT4All Pro Chat",
     description: "A multi-platform chat interface for running local LLMs",
   },
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-bindings/python",
-    title: "GPT4All in Python",
-    description: "Python Bindings to GPT4All",
+    title: "GPT4All Pro in Python",
+    description: "Python Bindings to GPT4All Pro",
   },
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all-datalake",
-    title: "GPT4All Datalake",
+    title: "GPT4All Pro Datalake",
     description:
-      "An open-source datalake for donated GPT4All interaction data.",
+      "An datalake for GPT4All Pro interaction data.",
   },
 ];
 
