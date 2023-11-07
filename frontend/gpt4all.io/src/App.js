@@ -250,7 +250,7 @@ function App() {
           </p>
           <p className="leading-relaxed">
             All data contributions to the GPT4All Pro Datalake will be
-            in their raw and Atlas-curated form.
+            in their raw and Atlas-curated form. 
             <b>
               <a
                 className="underline"
