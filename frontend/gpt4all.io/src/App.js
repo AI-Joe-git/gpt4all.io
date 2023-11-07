@@ -233,35 +233,7 @@ function App() {
         <ModelsTable />
       </div>
 
-      <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
-        <h2 className="text-4xl font-bold text-center">GPT4All Pro Datasets</h2>
-        <div className="w-full lg:w-2/3 px-0 space-y-8 xl:px-32">
-          <p className="leading-relaxed">
-            To train a powerful instruction-tuned assistant on your own data,
-            you need to curate high-quality training and instruction-tuning
-            datasets. GPT4All Pro AI has built a platform called{" "}
-            <b>
-              <a className="underline" href="https://atlas.nomic.ai/">
-                Atlas
-              </a>
-            </b>{" "}
-            to make manipulating and curating LLM training data easy.
-          </p>
-          <p className="leading-relaxed">
-            You can find the latest Atlas-curated GPT4All Pro dataset
-            on{" "}
-            <b>
-              <a
-                className="underline"
-                href="https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations"
-              >
-                Huggingface
-              </a>
-            </b>
-            . Make sure to use the latest data version.
-          </p>
-        </div>
-      </div>
+
 
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
         <h2 className="text-4xl font-bold text-center">
