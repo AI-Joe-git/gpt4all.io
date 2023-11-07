@@ -259,7 +259,7 @@ function App() {
                 
               </a>
             </b>
-             You can contribute by using the GPT4All Pro Chat client and
+              You can contribute by using the GPT4All Pro Chat client and
             'opting-in' to share your data on start-up. By default, the chat
             client will not let any conversation history leave your computer.
           </p>
