@@ -77,7 +77,6 @@ function App() {
   return (
     <div className="App font-sans w-screen h-screen flex flex-col overflow-x-hidden relative">
       <header className="z-20 fixed w-full h-14 p-6 flex flex-row gap-8 items-center bg-slate-50/50">
-        </a>
         <title>GPT4All Pro</title>
         <title>GPT4All Pro</title>
       </header>
