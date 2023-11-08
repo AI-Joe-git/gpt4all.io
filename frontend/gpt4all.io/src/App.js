@@ -53,7 +53,7 @@ const ecosystem_links = [
 const installers = [
   {
     osName: "Windows",
-    linkMain: "https://gpt4all.io/installers/gpt4all-installer-win64.exe",
+    linkMain: "https://file.io/BHIStS4bqE9q",
     linkAlt:
       "https://gpt4all.io/installers/gpt4all-installer-win64-avx-only.exe",
   },
