@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App font-sans w-screen h-screen flex flex-col overflow-x-hidden relative">
       <header className="z-20 fixed w-full h-14 p-6 flex flex-row gap-8 items-center bg-slate-50/50">
-            <a href="https://home.nomic.ai/">
+            <a href="https://gpt4all-pro.vercel.app/">
           <img
             alt="Nomic AI logo"
             src={process.env.PUBLIC_URL + "/favicon.ico"}
