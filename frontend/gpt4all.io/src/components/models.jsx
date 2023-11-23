@@ -3,7 +3,7 @@ import * as DOMPurify from "dompurify";
 import { ArrowBigDownDash } from "lucide-react";
 
 const getModels = async () => {
-  const response = await fetch("https://gpt4all.io/models/models2.json");
+  const response = await fetch("https://raw.githubusercontent.com/AI-Joe-git/gpt4all.io/main/models2.json");
   //const response = await fetch(
     //"https://raw.githubusercontent.com/nomic-ai/gpt4all/main/gpt4all-chat/metadata/models.json"
   //);
