@@ -95,7 +95,7 @@ function App() {
             </h2>
             <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
               A locally running, privacy-aware chatbot.{" "}
-              <strong>No GPU or internet required unlimited use for only 8640€.</strong>
+              <strong>Unlimited use for only 8640€ no GPU or internet required.</strong>
             </p>
           </div>
 
