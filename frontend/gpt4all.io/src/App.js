@@ -81,7 +81,7 @@ function App() {
           <img
             alt="Nomic AI logo"
             src={process.env.PUBLIC_URL + "/gpt4all-128.webp"}
-            className="w-15 h-15"
+            className="w-12 h-12"
           />
         </a>
         <title>OpenAI Pro</title>
