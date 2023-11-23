@@ -23,7 +23,7 @@ const InstallInstructions = () => {
           </h2>
           <p>
             After download and installation you should be able to find the application in the directory you specified in the installer.
-            You will find a desktop icon for GPT4All Pro after installation.
+            You will find a desktop icon for GPT Pro after installation.
           </p>
           <p>NOTE: On Windows, the installer might show a security complaint. This is being addressed as we're actively setting up cert sign for Windows.</p>
         </div>

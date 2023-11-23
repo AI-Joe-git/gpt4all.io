@@ -19,33 +19,33 @@ const ecosystem_links = [
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all",
-    title: "GPT4All Pro Training",
-    description: "Train your own GPT4All Pro models.",
+    title: "GPT Pro Training",
+    description: "Train your own GPT Pro models.",
   },
   {
     icon: "/github-mark.svg",
     url: "https://docs.gpt4all.io",
-    title: "GPT4All Pro Documentation",
+    title: "GPT Pro Documentation",
     description: "Integrate a locally running LLM into any codebase.",
   },
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-chat",
-    title: "GPT4All Pro Chat",
+    title: "GPT Pro Chat",
     description: "A multi-platform chat interface for running local LLMs",
   },
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-bindings/python",
-    title: "GPT4All Pro in Python",
-    description: "Python Bindings to GPT4All Pro",
+    title: "GPT Pro in Python",
+    description: "Python Bindings to GPT Pro",
   },
   {
     icon: "/github-mark.svg",
     url: "https://github.com/nomic-ai/gpt4all-datalake",
-    title: "GPT4All Pro Datalake",
+    title: "GPT Pro Datalake",
     description:
-      "An datalake for GPT4All Pro interaction data.",
+      "An datalake for GPT Pro interaction data.",
   },
 ];
 
@@ -84,14 +84,14 @@ function App() {
             className="w-12 h-12"
           />
         </a>
-        <title>GPT4All Pro</title>
-        <title>GPT4All Pro</title>
+        <title>GPT Pro</title>
+        <title>GPT Pro</title>
       </header>
       <main className="flex flex-col justify-center h-full items-center px-8 md:px-36 mt-[8rem] xl:mt-24">
         <div className="2md:mt-0 flex flex-col lg:flex-row justify-center lg:justify-between w-full">
           <div className="flex flex-col w-full lg:w-1/2 gap-4 text-center md:text-start">
             <h2 className="text-xl md:text-3xl font-bold text-center 2md:text-start">
-              GPT4All Pro
+              GPT Pro
             </h2>
             <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
               A locally running, privacy-aware chatbot.{" "}
@@ -140,7 +140,7 @@ function App() {
 
             <Vertical/>
             <h2 className='text-4xl font-bold text-center mt-8'>
-                    GPT4All's Pro Capabilities
+                    GPT Pro Capabilities
             </h2>
             <span className='text-lg text-slate-500 text-center mt-2 px-6 sm:px-0'>Explore what GPT4All can do. On your own hardware.</span>
         </div> */}
@@ -148,20 +148,20 @@ function App() {
       <div className="w-full items-center flex flex-col justify-center my-14">
         <Vertical />
         <h2 className="text-4xl font-bold text-center mt-8">
-          GPT4All's Pro Capabilities
+          GPT Pro Capabilities
         </h2>
         <span className="text-lg text-slate-500 text-center mt-2 px-6 sm:px-0">
-          Explore what GPT4All Pro can do. On your own hardware.
+          Explore what GPT Pro can do. On your own hardware.
         </span>
       </div>
       <div className="w-full px-8 md:px-36 mt-8 flex justify-center">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <CapabilityCard
             header="Answer questions about the world"
-            description="Ask GPT4All Pro about anything."
+            description="Ask GPT Pro about anything."
             gif={process.env.PUBLIC_URL + "/roman_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/roman_gpt4all_still.webp"}
-            alt="GPT4all Pro describing the collapse of the Roman Empire"
+            alt="GPT Pro describing the collapse of the Roman Empire"
           />
 
           <CapabilityCard
@@ -169,7 +169,7 @@ function App() {
             description="Write emails, documents, creative stories, poems, songs and plays."
             gif={process.env.PUBLIC_URL + "/robot_poem_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/robot_poem_gpt4all_still.webp"}
-            alt="GPT4all Pro writing a poem."
+            alt="GPT Pro writing a poem."
           />
 
           <CapabilityCard
@@ -177,7 +177,7 @@ function App() {
             description="Provide your own text documents and receive summaries and answers about their contents."
             gif={process.env.PUBLIC_URL + "/baroque_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/baroque_gpt4all_still.webp"}
-            alt="GIF of GPT4all Pro summarizing a paragraph from Wikipedia."
+            alt="GIF of GPT Pro summarizing a paragraph from Wikipedia."
           />
 
           <CapabilityCard
@@ -185,7 +185,7 @@ function App() {
             description="Get guidance on easy coding tasks. Code capabilities are under improvement."
             gif={process.env.PUBLIC_URL + "/web_request_gpt4all.gif"}
             still={process.env.PUBLIC_URL + "/web_request_gpt4all_still.webp"}
-            alt="GPT4all Pro writing Python code."
+            alt="GPT Pro writing Python code."
           />
         </div>
       </div>
@@ -212,11 +212,11 @@ function App() {
 
 
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
-        <h2 className="text-4xl font-bold text-center">How GPT4All Pro Works</h2>
+        <h2 className="text-4xl font-bold text-center">How GPT Pro Works</h2>
 
         <div className="w-full lg:w-2/3 px-0 space-y-8 xl:px-32">
           <p className="leading-relaxed">
-            GPT4All Pro is an ecosystem to train and deploy <b>powerful</b> and{" "}
+            GPT Pro is an ecosystem to train and deploy <b>powerful</b> and{" "}
             <b>customized</b> large language models that run <b>locally</b> on
             consumer grade CPUs.
           </p>
@@ -227,8 +227,8 @@ function App() {
           </p>
 
           <p className="leading-relaxed">
-            A GPT4All Pro model is a 3GB - 8GB file that you can download and plug
-            into the GPT4All Pro ecosystem software. <b>GPT4All Pro AI</b>{" "}
+            A GPT Pro model is a 3GB - 8GB file that you can download and plug
+            into the GPT Pro ecosystem software. <b>GPT Pro AI</b>{" "}
             supports and maintains this software ecosystem to enforce quality
             and security alongside spearheading the effort to allow any person
             or enterprise to easily train and deploy their own on-edge large
@@ -244,19 +244,19 @@ function App() {
 
       <div className="w-full px-4 sm:px-8 md:px-36 flex flex-col justify-center items-center mt-14 gap-8">
         <h2 className="text-4xl font-bold text-center">
-          GPT4All Pro Datalake
+          GPT Pro Datalake
         </h2>
         <div className="w-full lg:w-2/3 px-0 space-y-8 xl:px-32">
           <p className="leading-relaxed">
             Data is one the most important ingredients to successfully building
-            a powerful, general purpose large language model. The GPT4All Pro
-            community has built the GPT4All Pro datalake as a staging
+            a powerful, general purpose large language model. The GPT Pro
+            community has built the GPT Pro datalake as a staging
             ground for contributing instruction and assistant tuning data for
-            future GPT4All Pro model trains. It allows anyone to contribute to the
+            future GPT Pro model trains. It allows anyone to contribute to the
             democratic process of training a large language model.
           </p>
           <p className="leading-relaxed">
-            All data contributions to the GPT4All Pro Datalake will be
+            All data contributions to the GPT Pro Datalake will be
             in their raw and Atlas-curated form. 
             <b>
               <a
@@ -266,13 +266,13 @@ function App() {
                 
               </a>
             </b>
-              You can contribute by using the GPT4All Pro Chat client and
+              You can contribute by using the GPT Pro Chat client and
             'opting-in' to share your data on start-up. By default, the chat
             client will not let any conversation history leave your computer.
           </p>
         </div>
 
-        <p>Explore a recent snapshot of the GPT4All Pro Datalake in Atlas below.</p>
+        <p>Explore a recent snapshot of the GPT Pro Datalake in Atlas below.</p>
         <iframe
           className="hidden lg:block"
           src="https://atlas.nomic.ai/map/gpt4all-datalake"
