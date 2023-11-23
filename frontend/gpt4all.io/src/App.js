@@ -80,7 +80,7 @@ function App() {
             <a href="https://gpt4all-pro.vercel.app/">
           <img
             alt="Nomic AI logo"
-            src={process.env.PUBLIC_URL + "/favicon.ico"}
+            src={process.env.PUBLIC_URL + "/gpt4all-128.webp"}
             className="w-12 h-12"
           />
         </a>
