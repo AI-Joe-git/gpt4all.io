@@ -53,21 +53,21 @@ const ecosystem_links = [
 const installers = [
   {
     osName: "Windows",
-    linkMain: "https://gpt4all.io/installers/gpt4all-installer-win64.exe",
+    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-win64-avx-only.exe",
     linkAlt:
-      "https://gpt4all.io/installers/gpt4all-installer-win64-avx-only.exe",
+      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-win64-avx-only.exe",
   },
   {
     osName: "OSX",
-    linkMain: "https://gpt4all.io/installers/gpt4all-installer-darwin.dmg",
+    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-darwin-avx-only.dmg",
     linkAlt:
-      "https://gpt4all.io/installers/gpt4all-installer-darwin-avx-only.dmg",
+      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-darwin-avx-only.dmg",
   },
   {
     osName: "Ubuntu",
-    linkMain: "https://gpt4all.io/installers/gpt4all-installer-linux.run",
+    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-linux-avx-only.run",
     linkAlt:
-      "https://gpt4all.io/installers/gpt4all-installer-linux-avx-only.run",
+      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-linux-avx-only.run",
   },
 ];
 
