@@ -90,8 +90,11 @@ function App() {
       <main className="flex flex-col justify-center h-full items-center px-8 md:px-36 mt-[8rem] xl:mt-24">
         <div className="2md:mt-0 flex flex-col lg:flex-row justify-center lg:justify-between w-full">
           <div className="flex flex-col w-full lg:w-1/2 gap-4 text-center md:text-start">
+          <h2 className="text-3xl md:text-4xl font-bold text-center 2md:text-start">
+            Open AI-Pro.
+            </h2>
             <h2 className="text-xl md:text-3xl font-bold text-center 2md:text-start">
-            Introducing our Private AI Assistant Open AI-Pro.
+            Introducing our Private AI Assistant:
             </h2>
             <p className="text-2xl xl:text-3xl leading-normal lg:pr-12 text-center 2md:text-start">
               Complete data security and privacy with our locally-run chatbot.{" "}
