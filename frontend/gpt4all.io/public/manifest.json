@@ -1,19 +1,19 @@
 {
-  "short_name": "GPT4all.io",
+  "short_name": "openai-pro.pro",
   "name": "Free, local, privacy-aware chatbot",
   "icons": [
     {
-      "src": "gpt4all-128.png",
+      "src": "https://openai-pro.pro/gpt4all-128.webp",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://openai-pro.pro/gpt4all-128.webp",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://openai-pro.pro/gpt4all-128.webp",
       "type": "image/png",
       "sizes": "512x512"
     }
