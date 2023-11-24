@@ -53,21 +53,21 @@ const ecosystem_links = [
 const installers = [
   {
     osName: "Windows",
-    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-win64-avx-only.exe",
+    linkMain: "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-win64-v2.5.4.exe",
     linkAlt:
-      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-win64-avx-only.exe",
+      "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-win64-v2.5.4.exe",
   },
   {
     osName: "OSX",
-    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-darwin-avx-only.dmg",
+    linkMain: "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-darwin-v2.5.4.dmg",
     linkAlt:
-      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-darwin-avx-only.dmg",
+      "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-darwin-v2.5.4.dmg",
   },
   {
     osName: "Ubuntu",
-    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-linux-avx-only.run",
+    linkMain: "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-linux-v2.5.4.run",
     linkAlt:
-      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/gpt4all-installer-linux-avx-only.run",
+      "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-linux-v2.5.4.run",
   },
 ];
 
