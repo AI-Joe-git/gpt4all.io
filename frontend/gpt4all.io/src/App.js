@@ -91,12 +91,17 @@ function App() {
         <div className="2md:mt-0 flex flex-col lg:flex-row justify-center lg:justify-between w-full">
           <div className="flex flex-col w-full lg:w-1/2 gap-4 text-center md:text-start">
             <h2 className="text-xl md:text-3xl font-bold text-center 2md:text-start">
-            Introducing our Private AI Assistant Open AI-Pro. Complete data security and privacy with our locally-run chatbot.
+            Introducing our Private AI Assistant Open AI-Pro.
             </h2>
             <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
-              No online risks or maintenance fees. {" "}
-              <strong>Lifelong Open AI-Pro access for 8640€. Take back control of your data.</strong>
+              Complete data security and privacy with our locally-run chatbot.{" "}
+              <strong>No online risks or maintenance fees.</strong>
             </p>
+            <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
+              Lifelong Open AI-Pro access for 8640€.{" "}
+              <strong> Take back control of your data.</strong>
+            </p>
+
           </div>
 
           <div className="w-full lg:w-1/2 xl:pl-24 mt-8 lg:mt-0">
