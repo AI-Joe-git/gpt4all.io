@@ -93,11 +93,11 @@ function App() {
             <h2 className="text-xl md:text-3xl font-bold text-center 2md:text-start">
             Introducing our Private AI Assistant Open AI-Pro.
             </h2>
-            <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
+            <p className="text-2xl xl:text-4xl leading-normal lg:pr-12 text-center 2md:text-start">
               Complete data security and privacy with our locally-run chatbot.{" "}
               <strong>No online risks or maintenance fees.</strong>
             </p>
-            <p className="text-3xl xl:text-5xl leading-normal lg:pr-12 text-center 2md:text-start">
+            <p className="text-2xl xl:text-4xl leading-normal lg:pr-12 text-center 2md:text-start">
               Lifelong Open AI-Pro access for 8640€.{" "}
               <strong> Take back control of your data.</strong>
             </p>
