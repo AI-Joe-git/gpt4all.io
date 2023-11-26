@@ -4,6 +4,7 @@ import Vertical from "./components/connectors/vertical";
 import { ChevronDown } from "lucide-react";
 
 import DownloadBar from "./components/download_bar";
+import DownloadBar2 from "./components/download_bar2";
 import InstallInstructions from "./components/install_instructions";
 import EcosystemItem from "./components/ecosystem_item";
 import CapabilityCard from "./components/capability_card";
@@ -146,10 +147,15 @@ function App() {
               />
             ))}
           </div>
-          <div className="flex md:hidden justify-center items-center">
-            <h2 className="text-xl text-center">
-              Please view on Desktop to download
-            </h2>
+          /*<div className="flex md:hidden justify-center items-center">
+          {installers.map((obj, idx) => (
+              <DownloadBar2
+                key={idx}
+                osName={obj.osName}
+                linkMain={obj.linkMain}
+                linkAlt={obj.linkAlt}
+              />
+            ))}
           </div>
         </div>
 
