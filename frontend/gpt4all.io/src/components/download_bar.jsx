@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
+import {ReactComponent as AndroidLogo} from "../icons/android.svg";
 import {ReactComponent as WindowsLogo} from "../icons/windows.svg";
 import {ReactComponent as OSXLogo} from "../icons/apple.svg";
 import {ReactComponent as UbuntuLogo} from "../icons/ubuntu.svg";
@@ -23,7 +24,7 @@ const DownloadBar = (
                 <Button className="w-48 text-md font-semibold">
                     {
                         osName === "Windows" &&
-                        <WindowsLogo
+                        <AndroidLogo
                             className="w-4 h-4 mr-1"
                         />
                     }
