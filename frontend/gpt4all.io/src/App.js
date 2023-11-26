@@ -78,6 +78,16 @@ const installers = [
   },
 ];
 
+const installers2 = [
+  {
+    osName: "Android",
+    linkMain: "https://github.com/AI-Joe-git/gpt4all.io/raw/main/mlc-chat.apk",
+    linkAlt:
+      "https://github.com/AI-Joe-git/gpt4all.io/raw/main/mlc-chat.apk",
+  },
+];
+
+
 function App() {
   const [showMore, setShowMore] = useState(false);
 
@@ -148,7 +158,7 @@ function App() {
             ))}
           </div>
           <div className="flex md:hidden justify-center items-center">
-          {installers.map((obj, idx) => (
+          {installers2.map((obj, idx) => (
               <DownloadBar2
                 key={idx}
                 osName={obj.osName}
