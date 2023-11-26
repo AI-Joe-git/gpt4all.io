@@ -11,11 +11,24 @@ const InstallInstructions = () => {
     defaultValue="windows" className="w-full"
     >
       <TabsList className="grid grid-cols-3 w-full sm:w-[400px] mx-auto mb-8">
+        <TabsTrigger value="android">Android</TabsTrigger>
         <TabsTrigger value="windows">Windows</TabsTrigger>
         <TabsTrigger value="macos">MacOS</TabsTrigger>
         <TabsTrigger value="ubuntu">Ubuntu</TabsTrigger>
       </TabsList>
 
+      <TabsContent value="android">
+        <div className="mx-auto w-full xl:w-[900px] rounded-md bg-slate-50/50 p-6 flex flex-col">
+          <h2 className="text-xl font-semibold">
+            Android Installer
+          </h2>
+          <p>
+            After download and installation you should be able to find the application in the directory you specified in the installer.
+            You will find a desktop icon for Open AI-Pro after installation.
+          </p>
+          <p>NOTE: On Windows, the installer might show a security complaint. This is being addressed as we're actively setting up cert sign for Windows.</p>
+        </div>
+      </TabsContent>
       <TabsContent value="windows">
         <div className="mx-auto w-full xl:w-[900px] rounded-md bg-slate-50/50 p-6 flex flex-col">
           <h2 className="text-xl font-semibold">
