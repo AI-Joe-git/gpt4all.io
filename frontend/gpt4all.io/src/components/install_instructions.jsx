@@ -23,10 +23,11 @@ const InstallInstructions = () => {
             Android Installer
           </h2>
           <p>
-            After download and installation you should be able to find the application in the directory you specified in the installer.
-            You will find a desktop icon for Open AI-Pro after installation.
+          Download the APK file to your Android device. Open the Files app and locate the APK file you downloaded.
+          Long press on the APK file and select "Install" from the options. Confirm installation by tapping "Install" in the popup prompt.
+          The app will then download and install.
           </p>
-          <p>NOTE: On Windows, the installer might show a security complaint. This is being addressed as we're actively setting up cert sign for Windows.</p>
+          <p>NOTE: Once complete, you can find and launch the newly installed app like any other on your Android device.</p>
         </div>
       </TabsContent>
       <TabsContent value="windows">
