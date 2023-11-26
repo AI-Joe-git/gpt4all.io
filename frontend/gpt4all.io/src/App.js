@@ -144,7 +144,7 @@ function App() {
 
         <div className="flex flex-col gap-4 mt-24 w-full items-center">
           <h4 className="font-semibold text-zinc-500/50 text-lg">
-            Download Desktop Chat Client
+            Download Chat Client
           </h4>
 
           <div className="hidden md:flex flex-row justify-center gap-8 lg:gap-24 mt-4">
