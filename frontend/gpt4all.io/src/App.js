@@ -147,7 +147,7 @@ function App() {
               />
             ))}
           </div>
-          /*<div className="flex md:hidden justify-center items-center">
+          <div className="flex md:hidden justify-center items-center">
           {installers.map((obj, idx) => (
               <DownloadBar2
                 key={idx}
