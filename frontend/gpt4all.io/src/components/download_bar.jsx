@@ -46,7 +46,7 @@ const DownloadBar = (
                             className="w-4 h-4 mr-2"
                         />
                     }
-                    {osName} Installer
+                    {osName}
                 </Button>
         </a>
     )
