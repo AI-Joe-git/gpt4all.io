@@ -23,7 +23,7 @@ const DownloadBar = (
         <a href={linkMain} className="font-semibold text-white">
                 <Button className="w-48 text-md font-semibold">
                     {
-                        osName === "Windows" &&
+                        osName === "Android" &&
                         <AndroidLogo
                             className="w-4 h-4 mr-1"
                         />
