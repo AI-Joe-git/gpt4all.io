@@ -31,19 +31,19 @@ const DownloadBar = (
                                         {
                         osName === "Windows" &&
                         <WindowsLogo
-                            className="w-4 h-4 mr-1"
+                            className="w-4 h-4 mr-2"
                         />
                     }
                     {
                         osName === "OSX" &&
                         <OSXLogo
-                            className="w-4 h-4 mr-2"
+                            className="w-4 h-4 mr-3"
                         />
                     }
                     {
                         osName === "Ubuntu" &&
                         <UbuntuLogo
-                            className="w-4 h-4 mr-2"
+                            className="w-4 h-4 mr-4"
                         />
                     }
                     {osName}
