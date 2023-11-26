@@ -225,7 +225,7 @@
     "order": "p",
     "md5sum": "919de4dd6f25351bcb0223790db1932d",
     "name": "EM German Mistral",
-    "filename": "em_german_mistral_v01.Q4_0.gguf",
+    "filename": "em_german_mistral.Q4_0.gguf",
     "filesize": "4108916352",
     "requires": "2.5.0",
     "ramrequired": "8",
