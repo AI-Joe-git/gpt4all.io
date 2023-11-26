@@ -232,7 +232,7 @@
     "parameters": "7 billion",
     "quant": "q4_0",
     "type": "Mistral",
-    "description": "<strong>Mistral-based model for German-language applications</strong><br><ul><li>Fast responses</li><li>Chat based model</li><li>Finetuned on German instruction and chat data</a><li>Licensed for commercial use</ul>",
+    "description": "<strong>Mistral-based model for German-language applications</strong><br><ul><li>Fast responses</li><li>Finetuned on German instruction and chat data</a><li>Licensed for commercial use</ul>",
     "url": "https://huggingface.co/TheBloke/em_german_mistral_v01-GGUF/resolve/main/em_german_mistral_v01.Q4_0.gguf",
     "promptTemplate": "USER: %1 ASSISTANT: ",
     "systemPrompt": "Du bist ein hilfreicher Assistent. "
