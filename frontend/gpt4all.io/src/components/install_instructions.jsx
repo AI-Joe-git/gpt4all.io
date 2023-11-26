@@ -10,7 +10,7 @@ const InstallInstructions = () => {
     <Tabs
     defaultValue="windows" className="w-full"
     >
-      <TabsList className="grid grid-cols-3 w-full sm:w-[400px] mx-auto mb-8">
+      <TabsList className="grid grid-cols-4 w-full sm:w-[400px] mx-auto mb-8">
         <TabsTrigger value="android">Android</TabsTrigger>
         <TabsTrigger value="windows">Windows</TabsTrigger>
         <TabsTrigger value="macos">MacOS</TabsTrigger>
