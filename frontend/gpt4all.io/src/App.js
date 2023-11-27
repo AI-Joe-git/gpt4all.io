@@ -65,7 +65,7 @@ const installers = [
       "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-win64-v2.5.4.exe",
   },
   {
-    osName: "OSX",
+    osName: "macOS",
     linkMain: "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-darwin-v2.5.4.dmg",
     linkAlt:
       "https://github.com/nomic-ai/gpt4all/releases/download/v2.5.4/gpt4all-installer-darwin-v2.5.4.dmg",

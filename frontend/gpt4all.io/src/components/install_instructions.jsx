@@ -52,7 +52,7 @@ const InstallInstructions = () => {
             On macOS if you chose the default install location you'll find the application in the shared /Applications folder.
           </p>
           <p>
-            NOTE: You will be need to be on the latest version of OSX.
+            NOTE: You will be need to be on the latest version of macOS.
           </p>
         </div>
       </TabsContent>
