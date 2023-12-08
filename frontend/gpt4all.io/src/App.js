@@ -118,7 +118,7 @@ function App() {
               <strong>No online risks or maintenance fees.</strong>
             </p>
             <p className="text-2xl xl:text-3xl leading-normal lg:pr-12 text-center 2md:text-start">
-              Lifelong access for a one-time affordable fee of 8640€.{" "}
+              Lifelong access for a one-time affordable fee.{" "}
             </p>
             <p className="text-2xl xl:text-3xl leading-normal lg:pr-12 text-center 2md:text-start">
               <strong> Take back control of your data today.</strong>
